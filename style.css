@@ -1,0 +1,151 @@
+html {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+ position: relative;
+ /*text-align: center;*/
+}
+#HiMyNameIs {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  text-align: left;
+  font-size: 28px;
+  position: absolute;
+  bottom: 20%;
+  left: 225px;
+} 
+#AnakinSkywalker {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  text-align: left;
+  font-size: 55px;
+  position: absolute;
+  top: 155px;
+  left: 225px;
+}
+#introduction {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  padding-top: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 1.5;
+  
+}
+ul { 
+  list-style-type: square;
+}
+
+/*main { 
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Josefin Sans', sans-serif;
+}*/
+
+#site {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.quotes {
+  background-color: #222;
+  color: white;
+  padding: 40px;
+  font-family: 'Abril Fatface';
+  font-size: 40px;
+  font-style: normal;
+  position: relative;
+}
+
+.quotes::before {
+  content: '❝';
+  position: absolute;
+  font-size: 80px;
+  top: 0;
+  left: 0;
+} 
+
+.partsummary {
+ color: #222;
+ margin: left;
+ font-family: 'Josefin Sans', sans-serif;
+ text-transform: uppercase;
+ font-style: normal;
+ letter-spacing: 2px;
+ padding-top: 30px;
+ padding-bottom: 40px;
+} 
+
+.parts {
+  color: #222;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+}
+
+.parts2 {
+  color: #222;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  line-height: 0;
+}
+
+.text {
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 15px;
+ font-style: normal;
+ }
+
+#firstblock {
+  text-align: left;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#secondblock {
+  margin: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+#thirdblock {
+  margin: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+#fourthblock {
+  margin: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.personalinterests {
+ color: #222;
+ border-top: solid black 5px;
+ padding-top: 30px; 
+}   
+
+.listing {
+  color: #222;
+  font-style: italic;
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1;
+  font-weight: 600;
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+li {
+  font-style: normal;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+}
